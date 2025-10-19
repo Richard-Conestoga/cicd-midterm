@@ -8,7 +8,7 @@ load_dotenv()
 api = os.getenv("APPID", "")
 
 def kelvin_to_celsius(temp_k):
-    return round(temp_k - 270, 1)
+    return round(temp_k - 273.15, 1)
 
 def fetch_weather(city):
     url = f"http://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api}"
