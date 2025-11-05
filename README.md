@@ -155,3 +155,5 @@ git push origin main
 
 
 Updating this project to work with Jenkins.
+
+Jenkins is working sending email
