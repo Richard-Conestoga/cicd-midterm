@@ -152,3 +152,6 @@ git push origin main
 3. The pipeline will fail at the **Test** phase and prevent deployment
 
 4. Remove the failing test and push again to see the pipeline succeed
+
+
+Updating this project to work with Jenkins.
